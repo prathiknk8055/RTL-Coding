@@ -1,1 +1,4 @@
-# 2:1 MUX
+# RTL-CODING
+
+## DAY 1 BASIC GATES
+## DAY 2 MUX
