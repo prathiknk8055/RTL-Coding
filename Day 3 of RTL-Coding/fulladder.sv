@@ -8,6 +8,6 @@ module fulladder(
     output carry
     );
     assign sum = a^b^c;
-    assign carry = ((a&b)| (a&c));
+    assign carry = ((a&b)| ((a^b)&c));
     
 endmodule
