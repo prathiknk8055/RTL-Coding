@@ -1,3 +1,4 @@
+//implementing full adder
 `timescale 1ns / 1ps
 
 module fulladder(
