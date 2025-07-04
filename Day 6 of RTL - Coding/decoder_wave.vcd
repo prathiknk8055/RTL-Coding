@@ -1,0 +1,51 @@
+$date
+	Fri Jul 04 20:50:25 2025
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module tb_decoder2_4 $end
+$var reg 2 ! in [1:0] $end
+$var reg 4 " out [3:0] $end
+
+$scope module dut $end
+$var wire 1 # in [1] $end
+$var wire 1 $ in [0] $end
+$var reg 4 % out [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b1 "
+b1 %
+0$
+0#
+$end
+#10000
+b1 !
+1$
+b10 %
+b10 "
+#20000
+b10 !
+0$
+1#
+b100 %
+b100 "
+#30000
+b11 !
+1$
+b1000 %
+b1000 "
+#40000
+bx !
+x$
+x#
+b0 %
+b0 "
